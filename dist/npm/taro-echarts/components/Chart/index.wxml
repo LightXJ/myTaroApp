@@ -1,0 +1,12 @@
+<block wx:if="{{$taroCompReady}}">
+    <view style="{{anonymousState__temp}}">
+        <block>
+            <block wx:if="{{'h5' === 'weapp'}}">
+                <view style="{{'width:' + width + ';height:' + height + ';'}}" id="czzzz"></view>
+            </block>
+            <block wx:elif="{{'weapp' === 'weapp'}}">
+                <ec-canvas ec="{{anonymousState__temp2}}" id="dzzzz"></ec-canvas>
+            </block>
+        </block>
+    </view>
+</block>
